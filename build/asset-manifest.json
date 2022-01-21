@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6795a0fb.css",
+    "main.js": "/static/js/main.de26a919.js",
+    "static/js/787.49fe2e2e.chunk.js": "/static/js/787.49fe2e2e.chunk.js",
+    "static/media/home_big_art.png": "/static/media/home_big_art.d502fc2ea8438661d977.png",
+    "static/media/about_us_1.png": "/static/media/about_us_1.c3ee6c148fdd0bc11ad4.png",
+    "static/media/join_nala_now_image.png": "/static/media/join_nala_now_image.1bb0e0637057c7c25b2f.png",
+    "static/media/inside_nala_1.png": "/static/media/inside_nala_1.1387080864677915dbf2.png",
+    "static/media/about_us_2.png": "/static/media/about_us_2.f133679e4977e0398948.png",
+    "static/media/last_time_1.png": "/static/media/last_time_1.efeb3201e61e91fbf831.png",
+    "static/media/last_time_2.png": "/static/media/last_time_2.9be4cb635ea51906653a.png",
+    "static/media/inside_nala_2.png": "/static/media/inside_nala_2.b4211a7095a48ba69367.png",
+    "static/media/why_picture_1.png": "/static/media/why_picture_1.2dde02a01d78c24ba2e9.png",
+    "static/media/why_picture_3.png": "/static/media/why_picture_3.8a4b005e9f296b87720b.png",
+    "static/media/why_picture_2.png": "/static/media/why_picture_2.a3bcf5e39faad2a0a8f5.png",
+    "static/media/inside_nala_3.png": "/static/media/inside_nala_3.aeb3d8d665ed206b377c.png",
+    "index.html": "/index.html",
+    "main.6795a0fb.css.map": "/static/css/main.6795a0fb.css.map",
+    "main.de26a919.js.map": "/static/js/main.de26a919.js.map",
+    "787.49fe2e2e.chunk.js.map": "/static/js/787.49fe2e2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6795a0fb.css",
+    "static/js/main.de26a919.js"
+  ]
+}
