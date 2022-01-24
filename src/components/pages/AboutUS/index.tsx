@@ -1,6 +1,5 @@
 import React from "react";
 import { SectionSeparator } from "../../atoms/SectionSeparator";
-import { Footer } from "../../molecules/Footer";
 import { AboutIntroductionSection } from "./Sections/AboutIntroductionSection";
 import { BenSection } from "./Sections/BenSection";
 import { AboutUSContainer } from "./styles";
@@ -12,7 +11,6 @@ const AboutUS = () => {
       <SectionSeparator />
       <BenSection />
       <SectionSeparator />
-      <Footer />
     </AboutUSContainer>
   );
 };

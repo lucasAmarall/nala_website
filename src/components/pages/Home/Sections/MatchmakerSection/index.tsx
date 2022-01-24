@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../../../../atoms/Button";
 
 import {
   MatchmakerSectionContainer,
@@ -8,10 +9,13 @@ import {
   MatchmakerSectionDescription,
   MatchmakerSectionButtonContainer,
   MatchmakerSectionDownloadLabel,
+  MatchmakerSectionButtonIcon,
+  MatchmakerSectionButtonText,
 } from "./styles";
 
 const assets = {
   home_big_art: require("../../../../../assets/home_big_art.png"),
+  apple_icon: require("../../../../../assets/apple_icon.png"),
 };
 
 const MatchmakerSection = () => {
@@ -28,7 +32,16 @@ const MatchmakerSection = () => {
           Artificial Intelligence powered by the world’s largest and most
           expansive art database.
         </MatchmakerSectionDescription>
-        <MatchmakerSectionButtonContainer />
+        <MatchmakerSectionButtonContainer>
+          <Button colorSchema="light">
+            <MatchmakerSectionButtonIcon
+              style={{ backgroundImage: `url(${assets.apple_icon})` }}
+            />
+            <MatchmakerSectionButtonText>
+              Get started
+            </MatchmakerSectionButtonText>
+          </Button>
+        </MatchmakerSectionButtonContainer>
         <MatchmakerSectionDownloadLabel>
           NALA is free to download
         </MatchmakerSectionDownloadLabel>

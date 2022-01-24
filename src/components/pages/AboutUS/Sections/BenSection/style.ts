@@ -7,7 +7,6 @@ export const BenSectionContainer = styled(MaxContainer)`
   display: flex;
   align-items: center;
   position: relative;
-  height: 495px;
 `;
 
 export const BenSectionBiographyContainer = styled.p`
@@ -38,4 +37,48 @@ export const BenSectionImageContainerPicture = styled.img`
   z-index: -1;
 `;
 
-export const BenSectionImageContainerTitle = styled.h1``;
+export const BenSectionImageContainerTitle = styled.h1`
+  font-family: ${fonts.lohit};
+  color: ${colors.text.white};
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  position: absolute;
+  line-height: 52px;
+  top: 107px;
+  right: 185px;
+  z-index: 1;
+`;
+
+export const BenSectionImageContainerFounder = styled.span`
+  font-family: ${fonts.lohit};
+  color: ${colors.text.white};
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  position: absolute;
+  line-height: 52px;
+  width: 429px;
+  display: inline-block;
+  top: 179px;
+  right: 105px;
+  text-align: center;
+  z-index: 1;
+`;
+
+export const BenSectionImageContainerTestimonial = styled.p`
+  font-family: ${fonts.lohit};
+  color: ${colors.text.white};
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  max-width: 435px;
+  text-align: center;
+  position: absolute;
+  top: 280px;
+  right: 103px;
+  text-align: center;
+  z-index: 1;
+`;

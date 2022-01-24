@@ -1,6 +1,5 @@
 import React from "react";
 import { SectionSeparator } from "../../atoms/SectionSeparator";
-import { Footer } from "../../molecules/Footer";
 import { InsideNalaIntroductionSection } from "./sections/InsideNalaIntroductionSection";
 import { YourFavoriteSection } from "./sections/YourFavoriteSection";
 import { InsideNalaSection } from "./styles";
@@ -11,7 +10,6 @@ const InsiseNala = () => {
       <InsideNalaIntroductionSection />
       <SectionSeparator />
       <YourFavoriteSection />
-      <Footer />
     </InsideNalaSection>
   );
 };

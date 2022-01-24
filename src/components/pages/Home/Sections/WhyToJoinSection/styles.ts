@@ -83,7 +83,6 @@ export const WhyToJoinSectionIllustrationInfoContainer = styled.div`
 `;
 
 export const ButtonContainer = styled.div`
-  border: 1px solid #1a1a1a;
   width: 199px;
   height: 60px;
   font-family: Roboto;

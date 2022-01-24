@@ -1,3 +1,5 @@
+import { ERoutes } from "../../../../../constants/routes";
+import { Button } from "../../../../atoms/Button";
 import { SmallTitle } from "../../../../atoms/Typograh";
 import {
   TechnologyBehindSectionContainer,
@@ -25,7 +27,16 @@ const TechnologyBehindSection = () => {
         returns the optimized pairings of artists to collectors and galleries,
         streamlining the discovery process.
       </TechnologyBehindSectionDescription>
-      <TechnologyBehindSectionButtonContainer />
+      <TechnologyBehindSectionButtonContainer>
+        <Button
+          colorSchema="black"
+          onClick={() => {
+            window.location.href = ERoutes.inside_nala;
+          }}
+        >
+          Know more
+        </Button>
+      </TechnologyBehindSectionButtonContainer>
     </TechnologyBehindSectionContainer>
   );
 };

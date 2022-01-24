@@ -4,14 +4,15 @@ import { fonts } from "../../../constants/fonts";
 import { MaxContainer } from "../../atoms/MaxContainer";
 
 export const FooterRow = styled.footer`
-  background: ${colors.background.black};
+  background: inherit;
   width: 100%;
   padding: 42px;
 `;
 
-export const FooContainer = styled(MaxContainer)`
+export const FooterContainer = styled(MaxContainer)`
   display: flex;
-  align-item: flex-end;
+  align-items: flex-end;
+  margin: 0 auto;
 `;
 
 export const FooterLogoContainer = styled.div`

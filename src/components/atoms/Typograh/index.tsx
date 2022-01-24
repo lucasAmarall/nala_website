@@ -29,7 +29,7 @@ export const SubTitle = styled.h2`
   font-weight: normal;
   font-size: 22px;
   line-height: 52px;
-  /*  letter-spacing: 0.05rem;*/
+  letter-spacing: 0.05rem;
 `;
 
 export const SubTitleSmall = styled.h2`

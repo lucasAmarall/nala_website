@@ -1,0 +1,18 @@
+.out_container{
+  display: flex;
+}
+.router{
+  width: 100%;
+
+}
+
+.menu_container{
+  margin-top: 78px;
+  width: 15.625%;
+}
+
+
+.footer_container{
+  padding-right: 15.625%;
+  background-color: #1a1a1a;
+}

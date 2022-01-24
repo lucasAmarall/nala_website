@@ -1,6 +1,9 @@
 export enum ERoutes {
   "home" = "/",
+  "default" = "*",
   "inside_nala" = "/inside_nala",
   "collectors" = "/collectors",
-  "about" = "/about",
+  "about" = "/team",
+  "galleries" = "/galleries",
+  "artists" = "/artists",
 }

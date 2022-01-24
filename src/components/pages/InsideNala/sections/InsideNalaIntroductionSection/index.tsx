@@ -23,7 +23,7 @@ const InsideNalaIntroductionSection = () => {
     <InsideNalaIntroductionContainer>
       <InsideNalaIntroductionHeaderContainer>
         <InsideNalaIntroductionHeaderImageContainer>
-          <img src={pictures.head} alt="NALA picture" />
+          <img src={pictures.head} alt="NALA" />
         </InsideNalaIntroductionHeaderImageContainer>
         <InsideNalaIntroductionHeaderInfoContainer>
           <InsideNalaIntroductionHeaderInfoTitle>

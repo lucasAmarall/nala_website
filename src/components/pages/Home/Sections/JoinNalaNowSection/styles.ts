@@ -56,11 +56,20 @@ export const JoinNalaNowSectionDescription = styled.p`
   font-weight: normal;
   font-size: 18px;
   line-height: 40px;
-  /*  letter-spacing: 0.05rem;*/
+  letter-spacing: 0.05rem;
 `;
 
 export const JoinNalaNowSectionButtonContainer = styled.div`
   width: 200px;
   height: 53px;
-  border: 1px solid ${colors.background.black};
+`;
+
+export const JoinNalaNowSectionButtonIcon = styled.span`
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 17px;
+  margin-top: -4px;
+  background-size: contain;
+  background-repeat: no-repeat;
 `;

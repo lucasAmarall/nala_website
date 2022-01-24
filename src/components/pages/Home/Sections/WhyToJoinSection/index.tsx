@@ -1,4 +1,6 @@
 import React from "react";
+import { ERoutes } from "../../../../../constants/routes";
+import { Button } from "../../../../atoms/Button";
 import { Title, SubTitle } from "../../../../atoms/Typograh";
 import {
   WhyToJoinSectionContainer,
@@ -18,6 +20,9 @@ const illustrationsImages = {
 };
 
 const WhyToJoinSection = () => {
+  const goTo = (path: ERoutes) => {
+    window.location.href = path;
+  };
   return (
     <WhyToJoinSectionContainer as="section">
       <Title>Why to join us</Title>
@@ -38,11 +43,10 @@ const WhyToJoinSection = () => {
           </WhyToJoinSectionIllustrationTitleContainer>
           <WhyToJoinSectionIllustrationInfoContainer>
             <p>
-              {" "}
               <span>
                 NALA is not another Social Media platform; there is no
                 engagement, building followers, or requirement to post
-                regularly;{" "}
+                regularly;
               </span>
               <span>imply upload your art, and NALA does all the rest;</span>
               <span>
@@ -53,7 +57,9 @@ const WhyToJoinSection = () => {
               </span>
               <span>Connect with Galleries that match your style.</span>
             </p>
-            <ButtonContainer />
+            <ButtonContainer>
+              <Button onClick={() => goTo(ERoutes.artists)}>Read more</Button>
+            </ButtonContainer>
           </WhyToJoinSectionIllustrationInfoContainer>
         </WhyToJoinSectionIllustrationContainer>
         <WhyToJoinSectionIllustrationContainer>
@@ -66,7 +72,6 @@ const WhyToJoinSection = () => {
           </WhyToJoinSectionIllustrationTitleContainer>
           <WhyToJoinSectionIllustrationInfoContainer>
             <p>
-              {" "}
               <span>
                 NALA finds the collectors that are most likely to become your
                 next buyer;
@@ -81,7 +86,9 @@ const WhyToJoinSection = () => {
               </span>
               <span>Find new talents from all around the world.</span>
             </p>
-            <ButtonContainer />
+            <ButtonContainer>
+              <Button onClick={() => goTo(ERoutes.galleries)}>Read more</Button>
+            </ButtonContainer>
           </WhyToJoinSectionIllustrationInfoContainer>
         </WhyToJoinSectionIllustrationContainer>
         <WhyToJoinSectionIllustrationContainer>
@@ -103,7 +110,11 @@ const WhyToJoinSection = () => {
               <span>Invest based on data;</span>
               <span>Have fun searching for and collecting new art.</span>
             </p>
-            <ButtonContainer />
+            <ButtonContainer>
+              <Button onClick={() => goTo(ERoutes.collectors)}>
+                Read more
+              </Button>
+            </ButtonContainer>
           </WhyToJoinSectionIllustrationInfoContainer>
         </WhyToJoinSectionIllustrationContainer>
       </WhyToJoinSectionIllustrationsContainer>

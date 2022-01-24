@@ -46,7 +46,7 @@ export const MatchmakerSectionDescription = styled.p`
   font-weight: normal;
   font-size: 22px;
   line-height: 52px;
-  /*  letter-spacing: 0.05rem;*/
+  letter-spacing: 0.05rem;
 
   display: block;
   margin-top: 27px;
@@ -63,8 +63,6 @@ export const MatchmakerSectionImageContainer = styled.div`
 export const MatchmakerSectionButtonContainer = styled.div`
   width: 200px;
   height: 60px;
-  border: 1px solid #1a1a1a;
-  background: #2e3a59;
   margin-top: 105px;
 `;
 
@@ -74,6 +72,20 @@ export const MatchmakerSectionDownloadLabel = styled.div`
   font-weight: normal;
   font-size: 14px;
   line-height: 40px;
-  /*  letter-spacing: 0.05rem;*/
+  letter-spacing: 0.05rem;
+  color: #2e3a59;
+`;
+
+export const MatchmakerSectionButtonIcon = styled.span`
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 17px;
+  margin-top: -7px;
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
+
+export const MatchmakerSectionButtonText = styled.span`
   color: #2e3a59;
 `;

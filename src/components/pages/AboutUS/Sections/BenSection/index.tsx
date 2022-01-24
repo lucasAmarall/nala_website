@@ -3,6 +3,9 @@ import {
   BenSectionContainer,
   BenSectionImageContainer,
   BenSectionImageContainerPicture,
+  BenSectionImageContainerTitle,
+  BenSectionImageContainerFounder,
+  BenSectionImageContainerTestimonial,
 } from "./style";
 
 const pictures = {
@@ -25,6 +28,20 @@ const BenSection = () => {
           src={pictures.ben}
           alt="Benjamin Gulak"
         />
+        <BenSectionImageContainerTitle>
+          Benjamin Gulak
+        </BenSectionImageContainerTitle>
+        <BenSectionImageContainerFounder>
+          Founder
+        </BenSectionImageContainerFounder>
+        <BenSectionImageContainerTestimonial>
+          “I never understood why in a world with so much creativity, you can
+          walk into galleries in almost any major city and see the same artists
+          on the walls. The idea of art is supposed to be individualism, and yet
+          sometimes the market seems anything but. With the commercialism of
+          creativity, we’ve limited ourselves and our ability to find new
+          talent.”
+        </BenSectionImageContainerTestimonial>
       </BenSectionImageContainer>
     </BenSectionContainer>
   );

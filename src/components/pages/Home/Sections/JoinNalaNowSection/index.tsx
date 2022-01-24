@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../../../../atoms/Button";
 import {
   JoinNalaNowSectionContainer,
   JoinNalaNowSectionImageContainer,
@@ -6,9 +7,14 @@ import {
   JoinNalaNowSectionTitle,
   JoinNalaNowSectionDescription,
   JoinNalaNowSectionButtonContainer,
+  JoinNalaNowSectionButtonIcon,
 } from "./styles";
 
 const image = require("../../../../../assets/join_nala_now_image.png");
+
+const assets = {
+  apple_icon: require("../../../../../assets/black_apple_icon.png"),
+};
 
 const JoinNalaNowSection = () => {
   return (
@@ -39,7 +45,14 @@ const JoinNalaNowSection = () => {
             expanding your artistic circle. Happy swiping!
           </JoinNalaNowSectionDescription>
         </div>
-        <JoinNalaNowSectionButtonContainer />
+        <JoinNalaNowSectionButtonContainer>
+          <Button>
+            <JoinNalaNowSectionButtonIcon
+              style={{ backgroundImage: `url(${assets.apple_icon})` }}
+            />
+            Get started
+          </Button>
+        </JoinNalaNowSectionButtonContainer>
       </JoinNalaNowSectionInfoContainer>
     </JoinNalaNowSectionContainer>
   );
